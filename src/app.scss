@@ -1,0 +1,14 @@
+@import "./assets/base";
+@import "~normalize.css/normalize.css";
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .text {
+        font-size: 28px;
+        color: #666;
+    }
+}
